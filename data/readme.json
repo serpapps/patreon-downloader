@@ -2,20 +2,17 @@
   "id": 47,
   "created_at": "2025-01-23T00:00:00Z",
   "seo_title": "Patreon Downloader - Free Content Download Tool",
-  "seo_description": "https://serp.ly/patreon-downloader",
+  "seo_description": null,
   "product_page_url": "https://store.serp.co/product-details/product/patreon-downloader",
   "purchase_url": "https://serp.ly/patreon-downloader",
   "store_product_id": null,
   "name": "Patreon Downloader",
-  "tagline": "https://serp.ly/patreon-downloader",
-  "featured_image": "images/patreon-downloader.jpg",
-  "featured_image_gif": "images/patreon-downloader.gif",
+  "tagline": "Access Patreon posts, attachments, and exclusive content for offline viewing",
+  "featured_image": "https://raw.githubusercontent.com/serpapps/patreon-downloader/assets/images/patreon-downloader.jpg",
+  "featured_image_gif": "https://raw.githubusercontent.com/serpapps/patreon-downloader/assets/images/patreon-downloader.gif",
   "github_repo_url": "https://github.com/serpapps/patreon-downloader",
   "github_repo_tags": [
-    "patreon-downloader",
-    "downloader",
-    "automation",
-    "tools"
+    "patreon-downloader"
   ],
   "github_gist_url": null,
   "features": [
@@ -55,13 +52,11 @@
     "Node.js",
     "Automation"
   ],
-  "serpco_product_page_link": "https://store.serp.co/product-details/product/patreon-downloader",
-  "serpai_product_page_link": null,
+  "serpco_product_page_link": "https://serp.co/products/patreon-downloader/reviews/",
+  "serpai_product_page_link": "https://serp.ai/products/patreon-downloader/reviews/",
   "file_formats": null,
   "categories": [
-    "Video Downloaders",
-    "Content Tools",
-    "Automation"
+    "social media site"
   ],
   "extraction_targets": null,
   "content_medium": null,
@@ -72,21 +67,18 @@
     "devinschumacher"
   ],
   "funding_links_liberapay": [
-    "serply"
+    "devinschumacher"
   ],
   "funding_links_opencollective": [
-    "serply"
+    "devinschumacher"
   ],
   "funding_links_custom": [
     "https://serpapps.github.io/patreon-downloader",
     "https://devinschumacher.com/patreon-downloader",
-    "https://serp.co/products/patreon-downloader/reviews/"
+    "https://serp.co/products/patreon-downloader/",
+    "https://github.com/sponsors/devinschumacher"
   ],
   "keywords": [
-    "patreon",
-    "downloader",
-    "automation",
-    "tool",
-    "free"
+    "patreon downloader"
   ]
 }
