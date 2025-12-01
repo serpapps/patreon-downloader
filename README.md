@@ -1,15 +1,15 @@
-# M3u8 Video Stream Downloader (Browser Extension for Chrome, Firefox, Opera, Edge)
+# Patreon Video Stream Downloader (Browser Extension for Chrome, Firefox, Opera, Edge)
 
-> Download HLS streams from M3U8 playlists with encryption support
+> Download Patreon videos directly to your local computer for offline viewing & easy backing up of your media.
 
-M3u8 Downloader is a powerful tool that helps you download content from M3u8 instantly without ads or popups. Built with modern technologies, it provides a seamless experience for downloading and managing content. A small, focused tool that fetches HLS (M3U8) playlists and downloads their media segments reliably — including support for encrypted HLS (AES-128 / key retrieval workflows). Built for reproducible archiving, automated ingest, and offline processing of live / VOD HLS sources. It handles playlist parsing, concurrent segment fetching, optional key retrieval/decryption, resumable downloads, and writes output into object storage or local archives for downstream use.
+Patreon Downloader is a powerful tool that helps you download content from Patreon instantly without ads or popups. Built with modern technologies, it provides a seamless experience for downloading and managing content. A small, focused tool that fetches HLS (Patreon) playlists and downloads their media segments reliably — including support for encrypted HLS (AES-128 / key retrieval workflows). Built for reproducible archiving, automated ingest, and offline processing of live / VOD HLS sources. It handles playlist parsing, concurrent segment fetching, optional key retrieval/decryption, resumable downloads, and writes output into object storage or local archives for downstream use.
 
 ## 🔗 Links
 
-- 🎁 Get it [here](https://serp.ly/m3u8-downloader)
+- 🎁 Get it [here](https://serp.ly/Patreon-downloader)
 - ❓ Check FAQs [here](https://github.com/orgs/serpapps/discussions/categories/faq)
-- 🐛 Report bugs [here](https://github.com/serpapps/m3u8-downloader/issues)
-- 🆕 Request features [here](https://github.com/serpapps/m3u8-downloader/issues)
+- 🐛 Report bugs [here](https://github.com/serpapps/Patreon-downloader/issues)
+- 🆕 Request features [here](https://github.com/serpapps/Patreon-downloader/issues)
 
 ### Resources
 
