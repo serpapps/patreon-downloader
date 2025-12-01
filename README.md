@@ -2,7 +2,10 @@
 
 > Download Patreon videos directly to your local computer for offline viewing & easy backing up of your media.
 
-Patreon Downloader is a powerful tool that helps you download content from Patreon instantly without ads or popups. Built with modern technologies, it provides a seamless experience for downloading and managing content. A small, focused tool that fetches HLS (Patreon) playlists and downloads their media segments reliably — including support for encrypted HLS (AES-128 / key retrieval workflows). Built for reproducible archiving, automated ingest, and offline processing of live / VOD HLS sources. It handles playlist parsing, concurrent segment fetching, optional key retrieval/decryption, resumable downloads, and writes output into object storage or local archives for downstream use.
+The Patreon Video Downloader gives you complete local control over saving videos you already have access to.
+There are no servers, no logging, and no tracking — all detection and downloading happen directly on your device for maximum privacy.
+
+Whether you’re saving your own paid content, backing up lessons, or organizing important videos for offline use, our downloader is engineered to be safe, stable, and incredibly easy to use.
 
 ## 🔗 Links
 
