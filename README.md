@@ -1,17 +1,15 @@
-# Patreon Downloader
+# M3u8 Video Stream Downloader (Browser Extension for Chrome, Firefox, Opera, Edge)
 
-> Access Patreon posts, attachments, and exclusive content for offline viewing
+> Download HLS streams from M3U8 playlists with encryption support
 
-![Patreon Downloader](https://raw.githubusercontent.com/serpapps/patreon-downloader/assets/images/patreon-downloader.gif)
-
-Patreon Downloader is a powerful tool that helps you download content from Patreon instantly without ads or popups. Built with modern technologies, it provides a seamless experience for downloading and managing content.
+M3u8 Downloader is a powerful tool that helps you download content from M3u8 instantly without ads or popups. Built with modern technologies, it provides a seamless experience for downloading and managing content. A small, focused tool that fetches HLS (M3U8) playlists and downloads their media segments reliably — including support for encrypted HLS (AES-128 / key retrieval workflows). Built for reproducible archiving, automated ingest, and offline processing of live / VOD HLS sources. It handles playlist parsing, concurrent segment fetching, optional key retrieval/decryption, resumable downloads, and writes output into object storage or local archives for downstream use.
 
 ## 🔗 Links
 
-- 🎁 Get it [here](https://serp.ly/patreon-downloader)
+- 🎁 Get it [here](https://serp.ly/m3u8-downloader)
 - ❓ Check FAQs [here](https://github.com/orgs/serpapps/discussions/categories/faq)
-- 🐛 Report bugs [here](https://github.com/serpapps/patreon-downloader/issues)
-- 🆕 Request features [here](https://github.com/serpapps/patreon-downloader/issues)
+- 🐛 Report bugs [here](https://github.com/serpapps/m3u8-downloader/issues)
+- 🆕 Request features [here](https://github.com/serpapps/m3u8-downloader/issues)
 
 ### Resources
 
@@ -20,44 +18,88 @@ Patreon Downloader is a powerful tool that helps you download content from Patre
 - 🛒 [Shop](https://serp.ly/@serp/store)
 - 🎓 [Courses](https://serp.ly/@serp/courses)
 
-## Features
 
-- Stream-to-file conversion
-- HD quality downloads
-- Batch download support
-- Resume interrupted downloads
-- No watermarks
-- Content extraction
+## Features & Planned Functionality
 
-## Installation Instructions
+- Multi-browser compatability (Chrome, Brave, Edge, Arc, Opera, Firefox)
+- VPNs & proxy compatible (recommended for privacy)
+- Media auto detection
+- Download progress indicators
+- One-click downloads
+- No watermarks added
+- No ads
+- Regular updates
+- 100% privacy-friendly
+- Zero data tracking
+- Media download customization
+- Concurrent downloads
+- Lifetime access & updates
+- Auto-rename files based on video titles
+- Batch download queue support
+- Lightweight—minimal CPU/RAM usage
+- Thumbnail & metadata extraction
+- Support for long videos
+- Multiple resolution download options (when available)
+- Bulk downloading
 
-1. Clone the repository: git clone https://github.com/serpapps/patreon-downloader
-2. Install dependencies
-3. Configure settings
-4. Run the application
 
-## Usage Instructions
+## FAQs
 
-1. Open the application
-2. Enter the URL of the content you want to download
-3. Select your preferred quality and format
-4. Click download to start the process
-5. Files will be saved to your specified directory
+### Can I download private videos?
 
-## Technologies
+The rule of thumb is this: If you have access to the video - aka you are able to watch the video in your browser, you can download it. If it requires a password you don't have, and you are not able to watch the video you canno't download it.
 
-- Python
-- JavaScript
-- Node.js
-- Automation
+### How many videos can I download?
 
-## More Info
+Once you purchase the our downloader extension, you have access to it and future upgrades for life - you can download as many videos as you want.
 
-- 📁 Repository [here](https://github.com/serpapps/patreon-downloader)
+### Do you track what I download?
 
-<details>
-<summary>Keywords</summary>
+No. Everything happens locally on your computer and is not sent to our servers.
 
-patreon downloader
-</details>
+### Where are the downloads saved?
+
+The videos are saved to whatever folder you have set to download to in your browser's settings. Usually this is your Downloads folder by default.
+
+### How long does it take to download?
+
+It depends on the size of the video you are trying to download and your internet speed (among other things). Most videos download very quickly, but longer videos (hours more) and higher resolutions will increase download times
+
+### Is my data private?
+
+All detection and conversion happen locally. Only licence checks touch our servers. No viewing history or passwords are stored.
+
+We recommend using our [SERP VPN](https://serp.ly/serp-vpn) extension to hide your IP and location.
+
+### Is this legal?
+
+**DISCLAIMER:** We are not attorneys and do not offer legal advice. Laws vary by country and platform. For any legal question please consult a qualified legal professional.
+
+We give you full control over download speeds because we believe users should decide how they use their software.
+
+That said, here are a few widely accepted best practices for safe, responsible downloading:
+
+1.  Only download content you created, own, or have explicit permission from the rights holder to access.
+2.  Protect your personal data by respecting platform rules and rate limits with reasonable download speeds to avoid automated abuse systems putting your account at risk.
+3.  Protect your privacy by using a reputable VPN for IP protection before initiating downloads — [this is the VPN we recommend & use](https://serp.ly/best/vpn).
+
+### Do you offer refunds?
+
+See our [refund policy](https://github.com/serpapps/legal/blob/main/refund-policy.md) for the most up-to-date answer to that question. TLDR: Our downloaders work. If you have a problem with something not working, we will fix it or give you a refund.
+
+### It says “No video found” — what do I do?
+
+Try:
+
+1. Reloading the page & clicking play on the video so that it can play for a few seconds before clicking the extension.
+2. Using a VPN (some regions hide media files)
+
+
+## Related
+
+- [Repository](https://github.com/serpapps/patreon-downloader)
+- [Release](https://gist.github.com/devinschumacher/94b7816b449ae5e5371961a44384985e)
+- [How to Download Patreon Videos](https://gist.github.com/devinschumacher/14061551eb17cc8932b6802cfc0ca178)
+
+
 
