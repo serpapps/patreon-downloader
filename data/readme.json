@@ -1,18 +1,20 @@
 {
   "id": 47,
   "created_at": "2025-01-23T00:00:00Z",
-  "seo_title": "Patreon Downloader - Free Content Download Tool",
-  "seo_description": null,
-  "product_page_url": "https://store.serp.co/product-details/product/patreon-downloader",
-  "purchase_url": "https://serp.ly/patreon-downloader",
+  "seo_title": "Patreon Downloader - Browser Extension for Saving Patreon Content",
+  "seo_description": "Download supported Patreon videos, audio posts, images, post text, and attachments from content you can already access.",
+  "product_page_url": "https://apps.serp.co/patreon-downloader",
+  "purchase_url": "https://apps.serp.co/patreon-downloader",
   "store_product_id": null,
   "name": "Patreon Downloader",
-  "tagline": "Access Patreon posts, attachments, and exclusive content for offline viewing",
+  "tagline": "Download Patreon videos, audio, images, post text, and attachments for offline access",
   "featured_image": "https://raw.githubusercontent.com/serpapps/patreon-downloader/assets/images/patreon-downloader.jpg",
   "featured_image_gif": "https://raw.githubusercontent.com/serpapps/patreon-downloader/assets/images/patreon-downloader.gif",
   "github_repo_url": "https://github.com/serpapps/patreon-downloader",
   "github_repo_tags": [
-    "patreon-downloader"
+    "patreon-downloader",
+    "patreon-video-downloader",
+    "browser-extension"
   ],
   "github_gist_url": null,
   "features": [
@@ -24,20 +26,21 @@
     "Content extraction"
   ],
   "chrome_web_store_url": null,
-  "description": "Patreon Downloader is a powerful tool that helps you download content from Patreon instantly without ads or popups. Built with modern technologies, it provides a seamless experience for downloading and managing content.",
+  "description": "Patreon Downloader is a browser extension that helps users save supported videos, audio posts, images, post text, and attachments from Patreon content they can already access.",
   "product_video": null,
   "related_videos": null,
   "changelog": null,
   "version_number": 1,
   "updated_at": "2025-01-23T00:00:00Z",
   "troubleshooting_instructions": [],
-  "installation_instructions": "1. Clone the repository: git clone https://github.com/serpapps/patreon-downloader\n2. Install dependencies\n3. Configure settings\n4. Run the application",
+  "installation_instructions": "1. Open the latest release: https://github.com/serpapps/patreon-downloader/releases/latest\n2. Download the extension build for your browser\n3. Install the extension\n4. Open Patreon and sign in\n5. Use the extension popup or in-page button on supported posts",
   "usage_instructions": [
-    "Open the application",
-    "Enter the URL of the content you want to download",
-    "Select your preferred quality and format",
-    "Click download to start the process",
-    "Files will be saved to your specified directory"
+    "Open Patreon in the browser where the extension is installed",
+    "Sign in to the Patreon account with access to the post",
+    "Open a supported Patreon post",
+    "Press play for video or audio content if needed",
+    "Open the extension popup or use the in-page button",
+    "Select the detected media and start the download"
   ],
   "faqs": null,
   "supported_operating_systems": [
@@ -47,10 +50,10 @@
   ],
   "status": "live",
   "technologies": [
-    "Python",
     "JavaScript",
-    "Node.js",
-    "Automation"
+    "Browser Extension",
+    "Chrome Extension",
+    "Node.js"
   ],
   "serpco_product_page_link": "https://serp.co/products/patreon-downloader/reviews/",
   "serpai_product_page_link": "https://serp.ai/products/patreon-downloader/reviews/",
@@ -73,9 +76,9 @@
     "devinschumacher"
   ],
   "funding_links_custom": [
-    "https://serpapps.github.io/patreon-downloader",
-    "https://devinschumacher.com/patreon-downloader",
-    "https://serp.co/products/patreon-downloader/",
+    "https://apps.serp.co/patreon-downloader",
+    "https://github.com/serpapps/patreon-downloader/releases/latest",
+    "https://help.serp.co/en/",
     "https://github.com/sponsors/devinschumacher"
   ],
   "keywords": [

@@ -1,116 +1,165 @@
-# Patreon Downloader — Coming Soon (Browser Extension)
+# Patreon Downloader (Browser Extension)
 
-> Download exclusive content from Patreon creators you subscribe to — videos, podcasts, images, posts, and digital files — straight to your local machine. **This extension is currently in development and has not been released yet.**
+> Download videos, audio, images, post text, and attachments from Patreon posts you can already access.
 
-Patreon Downloader is an upcoming browser extension that will let paying subscribers save the content they already have access to through their Patreon memberships. Instead of relying on the Patreon web interface for every viewing session, users will be able to export creator content directly from the browser for offline access, personal archiving, and convenient local playback.
+Patreon Downloader is a browser extension built for subscribers, creators, researchers, and teams who want a simpler way to save Patreon content for offline viewing, local backup, and personal organization. It works inside your active Patreon browser session, detects supported media on creator posts, and gives you a direct download workflow without needing separate desktop tools.
 
-- Download videos, audio, images, and attached files from Patreon creator pages
-- Save entire post collections or individual pieces of content from subscribed creators
-- Export media in its original quality without re-encoding or compression
-- Work entirely within the browser with no external desktop applications required
-- Designed for Chrome, Edge, Brave, Opera, Firefox, and other Chromium browsers
-
-## Status
-
-**This extension is not yet available for download.** Development is in progress and a release date has not been announced. Sign up below to get notified when it launches.
-
-:bell: **Get notified when this launches:** [Join the waitlist](https://serp.ly/patreon-downloader)
+- Save Patreon videos from supported creator posts
+- Download audio, podcast-style posts, images, and file attachments
+- Capture post text for personal archiving and reference
+- Keep local copies for offline viewing, study, review, or backup
+- Use the same browser-first workflow across Chrome, Edge, Brave, Opera, Yandex, and Whale
 
 ## Links
 
-- :hourglass_flowing_sand: Waitlist: [Coming Soon — Sign Up](https://serp.ly/patreon-downloader)
+- :rocket: Get it here: [Patreon Downloader](https://apps.serp.co/patreon-downloader)
+- :new: Latest release: [GitHub Releases](https://github.com/serpapps/patreon-downloader/releases/latest)
 - :question: Help center: [SERP Help](https://help.serp.co/en/)
-- :bulb: Request features: [GitHub Issues](https://github.com/serpapps/patreon-downloader/issues)
+- :beetle: Report bugs: [GitHub Issues](https://github.com/serpapps/patreon-downloader/issues)
+- :bulb: Request features: [Feature Requests](https://github.com/serpapps/patreon-downloader/issues)
 
 ## Preview
 
-![Patreon Downloader hero image](assets/workflow-preview.webp)
+![Patreon Downloader preview](images/patreon-downloader.jpg)
 
 ## Table of Contents
 
 - [Why Patreon Downloader](#why-patreon-downloader)
-- [Planned Features](#planned-features)
-- [How It Will Work](#how-it-will-work)
-- [Expected Formats](#expected-formats)
+- [Features](#features)
+- [How It Works](#how-it-works)
+- [Step-by-Step Tutorial: How to Download Patreon Content](#step-by-step-tutorial-how-to-download-patreon-content)
+- [Supported Formats](#supported-formats)
 - [Who It's For](#who-its-for)
-- [Use Cases We're Building For](#use-cases-were-building-for)
+- [Common Use Cases](#common-use-cases)
+- [Troubleshooting](#troubleshooting)
+- [Trial & Access](#trial--access)
+- [Installation Instructions](#installation-instructions)
 - [FAQ](#faq)
-- [License](#license)
 - [Notes](#notes)
 - [About Patreon](#about-patreon)
 
 ## Why Patreon Downloader
 
-Patreon hosts a wide range of exclusive content behind membership tiers, but the platform itself offers limited options for saving that content locally. Videos play inside an embedded player with no download button. Audio and podcast episodes stream in the browser without an export option. Images are displayed inline within posts, and while some creators attach downloadable files, navigating post by post to collect them is tedious and time-consuming.
+Patreon creators publish a mix of videos, audio posts, image galleries, written updates, and downloadable files. That content is often easy to stream in the browser but harder to save in an organized local library, especially when you want to watch offline, back up materials from creators you support, or keep training resources available after a browser session ends.
 
-Patreon Downloader is being designed to solve this by operating directly inside the browser tab where you browse your creator feeds. The extension will detect downloadable media on the current page, let you select what to save, and pull files down to your hard drive in their original format. The goal is to make saving content you already pay for as simple as clicking a button, without needing screen recorders, download managers, or workarounds involving developer tools.
+Patreon Downloader focuses on that workflow. It runs in the Patreon page you are already using, reads the media available to your logged-in session, and presents supported download options through the extension popup and in-page controls.
 
-## Planned Features
+## Features
 
-- Video capture from Patreon's embedded player including full-length exclusive uploads
-- Audio and podcast episode downloads from creator feeds and dedicated audio posts
-- Batch image saving from posts that contain galleries or multiple inline images
-- Attached file downloads for PDFs, PSDs, ZIPs, and other digital deliverables
-- Post-level and bulk collection export across a creator's content library
-- Filename organization using creator name, post title, and publish date
-- Quality selection for video content when multiple resolutions are available
-- Cross-browser compatibility targeting Chrome, Edge, Brave, and Firefox
+- Video detection for supported Patreon post pages
+- Audio and podcast-style media downloads where available
+- Image and gallery download support for accessible post media
+- Attachment downloads for creator-uploaded files
+- Post text capture for personal notes and local reference
+- Quality selection when the source exposes multiple video options
+- MP4 output for supported video downloads
+- Popup workflow for reviewing detected media
+- Progress tracking during active downloads
+- Cross-browser support for Chrome, Edge, Brave, Opera, Yandex, and Whale
 
-## How It Will Work
+## How It Works
 
-1. Install the extension once it is released from the browser extension store.
-2. Open Patreon in your browser and log in to your account.
-3. Navigate to a creator page or specific post that contains content you want to save.
-4. Open the extension popup to see all detected media on the current page.
-5. Select individual items or use the batch selector to grab everything at once.
-6. Choose your preferred quality setting for video files if multiple options exist.
-7. Click download and the files will be saved to your designated local folder.
-8. Repeat across different posts or creators to build your offline collection.
+1. Install the extension from the latest release.
+2. Open Patreon and sign in to the account with access to the creator content.
+3. Navigate to a creator post or video page you want to save.
+4. Start playback if the post contains video or audio, so the media stream can initialize.
+5. Open the extension popup or use the in-page download button when it appears.
+6. Review the detected media and choose the item or quality you want.
+7. Start the download and save the file locally.
 
-## Expected Formats
+## Step-by-Step Tutorial: How to Download Patreon Content
 
-- Video: MP4 sourced from the Patreon player stream, maintaining original resolution
-- Audio: MP3 or M4A depending on how the creator uploaded the content
-- Images: PNG, JPG, or WEBP in the original resolution provided by the creator
-- Attachments: Original file format as uploaded by the creator (PDF, ZIP, PSD, etc.)
+1. Install Patreon Downloader from the latest GitHub release.
+2. Sign in to Patreon in the same browser profile.
+3. Open the Patreon post that contains the video, audio, image, text, or attachment you want to save.
+4. Let the page load fully.
+5. For video or audio posts, press play and wait a few seconds.
+6. Click the Patreon Downloader extension button in your browser toolbar.
+7. Select the detected media or attachment.
+8. Choose an available quality option when one is shown.
+9. Start the download and wait for the export to finish.
+10. Open the saved file from your Downloads folder.
 
-All exported files will retain their native format and quality, ensuring compatibility with standard media players, image viewers, and editing software.
+## Supported Formats
+
+- Input: Supported Patreon video streams
+- Input: Supported Patreon audio posts
+- Input: Patreon-hosted images and galleries
+- Input: Creator-uploaded attachments
+- Input: Patreon post text
+- Output: MP4 for supported video downloads
+- Output: Original source formats for supported images, audio, text, and attachments where available
+
+Saved files are generated from media available in your browser session, so available formats and quality levels depend on how the creator uploaded the post and how Patreon serves that content.
 
 ## Who It's For
 
-- Patreon subscribers who want offline access to video content from their favorite creators
-- Podcast listeners who prefer local episode files over streaming through the Patreon feed
-- Digital art collectors saving high-resolution images and process files from artists they support
-- Students and learners downloading educational material from tutorial-based creator pages
-- Fans who want a personal archive of exclusive content they have paid to access
+- Patreon subscribers who want offline access to content from creators they support
+- Creators backing up their own Patreon posts and media
+- Students saving educational videos, audio, worksheets, or reference files
+- Podcast listeners keeping local copies of Patreon-only audio posts
+- Teams archiving training, community, or membership resources
 
-## Use Cases We're Building For
+## Common Use Cases
 
-- Save an entire video series from a creator for offline viewing during travel
-- Archive podcast episodes before a creator restructures their tier offerings
-- Download high-resolution artwork and reference images from illustrators and designers
-- Collect tutorial PDFs and project files from educational creators into a local library
-- Build an organized offline backup of content across multiple creator subscriptions
+- Save a Patreon video for offline viewing while traveling
+- Download an audio post for local playback
+- Archive creator attachments such as PDFs, ZIP files, templates, or project files
+- Keep a local backup of posts from creators you support
+- Organize Patreon media into a personal offline library
+
+## Troubleshooting
+
+**The extension is not detecting the post video**  
+Press play first and wait a few seconds so Patreon has time to initialize the stream.
+
+**No quality options are showing**  
+Some posts expose only one playable stream or file option.
+
+**The popup says no media was found**  
+Refresh the post, let it load fully, start playback for video or audio, then reopen the extension popup.
+
+**The page requires login or membership access**  
+The extension only works on content your Patreon account can already access in the current browser session.
+
+**The file will not download**  
+Try refreshing the post and downloading again. If the issue continues, open a GitHub issue or contact SERP support with the post type and browser you are using.
+
+## Trial & Access
+
+- Includes **3 free downloads** so you can test the workflow first
+- Email sign-in uses secure one-time password verification
+- No credit card required for the trial
+- Unlimited downloads are available with a paid license
+
+Start here: [https://apps.serp.co/patreon-downloader](https://apps.serp.co/patreon-downloader)
+
+## Installation Instructions
+
+1. Open the latest release page:
+   [https://github.com/serpapps/patreon-downloader/releases/latest](https://github.com/serpapps/patreon-downloader/releases/latest)
+2. Download the extension build for your browser.
+3. Install the extension.
+4. Open Patreon and sign in.
+5. Open a supported Patreon post.
+6. Use the extension popup or in-page button to detect and download available content.
 
 ## FAQ
 
-**When will Patreon Downloader be released?**
-A release date has not been set. Sign up at the waitlist link above to be notified as soon as it is available.
+**What kinds of Patreon content can I download?**  
+Supported Patreon videos, audio, images, post text, and creator-uploaded attachments that are available to your logged-in Patreon session.
 
-**Does it work with all Patreon tiers?**
-The extension will work with whatever content your current membership tier grants you access to. It cannot bypass tier restrictions or access content you have not paid for.
+**Do I need to press play first?**  
+For video and audio posts, yes. Many streams are only exposed after playback starts.
 
-**What types of content can it download?**
-The plan covers videos, audio posts, images, and creator-uploaded file attachments. Support for each media type will depend on how Patreon delivers that content to the browser.
+**What file format do video downloads use?**  
+Supported videos are saved as MP4 files.
 
-**Will it preserve the original file quality?**
-Yes. The goal is to capture media in the same quality that Patreon serves to your browser, without additional compression or re-encoding.
+**Does it work on private or paid posts?**  
+It works only when your Patreon account already has access to that post in the browser.
 
-**Is it free?**
-Pricing details will be announced closer to launch. SERP extensions typically include a free trial period.
-
-**Can I download content from multiple creators at once?**
-Bulk downloading across different creator pages is a planned feature, though the initial release may focus on single-page content detection first.
+**Do I need extra software?**  
+No. The download workflow runs through the browser extension.
 
 ## License
 
@@ -118,12 +167,12 @@ This repository is distributed under the proprietary SERP Apps license in the [L
 
 ## Notes
 
-- This extension is in development and is not available for download yet
-- Only download content you have an active paid subscription to access
-- Media quality and availability will depend on how each creator uploads their content
-- Patreon platform changes may affect functionality once the extension is released
-- An active Patreon account with valid memberships and internet connection will be required
+- Only download content you own or have explicit permission to save
+- The extension only works on media you can already access in your browser session
+- Media quality depends on the source content Patreon exposes for that post
+- Patreon platform changes may affect detection and download behavior
+- An internet connection is required for the initial download
 
 ## About Patreon
 
-Patreon is a membership platform that allows creators to earn recurring revenue by offering exclusive content to paying subscribers. Creators across categories including video, podcasting, music, visual art, writing, and education use Patreon to distribute work that is not available on public channels. The platform streams and displays this content through its web interface but provides limited built-in tools for subscribers to save or export media locally. Patreon Downloader is being built to give subscribers a convenient way to keep offline copies of the content they already support through their memberships.
+Patreon is a membership platform used by creators to publish subscriber-only videos, audio, writing, images, and digital files. Because Patreon content can be delivered in several different post formats, saving accessible media locally is often less direct than normal file downloads. Patreon Downloader simplifies that process for users who need an offline copy of content they can already view in their Patreon account.
