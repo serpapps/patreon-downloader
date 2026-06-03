@@ -1,4 +1,4 @@
-# Patreon Downloader (Browser Extension)
+# Patreon Video Downloader (Browser Extension)
 
 > Download videos, audio, images, post text, and attachments from Patreon posts you can already access.
 
@@ -176,3 +176,9 @@ This repository is distributed under the proprietary SERP Apps license in the [L
 ## About Patreon
 
 Patreon is a membership platform used by creators to publish subscriber-only videos, audio, writing, images, and digital files. Because Patreon content can be delivered in several different post formats, saving accessible media locally is often less direct than normal file downloads. Patreon Downloader simplifies that process for users who need an offline copy of content they can already view in their Patreon account.
+
+
+## Resources
+
+- https://gist.github.com/devinschumacher/14061551eb17cc8932b6802cfc0ca178
+- https://gist.github.com/devinschumacher/94b7816b449ae5e5371961a44384985e
