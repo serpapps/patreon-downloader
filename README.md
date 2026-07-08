@@ -1,4 +1,4 @@
-# Patreon Video Downloader (Browser Extension)
+# Patreon Video Video Downloader (Browser Extension)
 
 > Download videos, audio, images, post text, and attachments from Patreon posts you can already access.
 
@@ -12,7 +12,7 @@ Patreon Downloader is a browser extension built for subscribers, creators, resea
 
 ## Links
 
-- :rocket: Get it here: [Patreon Downloader](https://apps.serp.co/patreon-downloader)
+- :rocket: Get it here: [Patreon Downloader](https://serp.ly/patreon-downloader?via=github)
 - :new: Latest release: [GitHub Releases](https://github.com/serpapps/patreon-downloader/releases/latest)
 - :question: Help center: [SERP Help](https://help.serp.co/en/)
 - :beetle: Report bugs: [GitHub Issues](https://github.com/serpapps/patreon-downloader/issues)
@@ -132,7 +132,7 @@ Try refreshing the post and downloading again. If the issue continues, open a Gi
 - No credit card required for the trial
 - Unlimited downloads are available with a paid license
 
-Start here: [https://apps.serp.co/patreon-downloader](https://apps.serp.co/patreon-downloader)
+Start here: [https://serp.ly/patreon-downloader?via=github](https://serp.ly/patreon-downloader?via=github)
 
 ## Installation Instructions
 
